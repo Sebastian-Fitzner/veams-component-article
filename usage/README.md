@@ -7,7 +7,7 @@ This blueprint is based on the blueprint of Veams-Components.
 ### Include: Page
 
 ``` hbs
-{{! @INSERT :: START @id: article, @tag: component
+{{! @INSERT :: START @id: article, @tag: component }}
 	{{#with article-bp.simple}}
 		{{> c-article}}
 	{{/with}}
