@@ -2,31 +2,28 @@
 
 This blueprint is based on the blueprint of Veams-Components.
 
-## Usage
+The article component is a `wrap-with` partial to give you the possibility to put in every content you need. 
 
-### Include: Page
+## Options:
 
-``` hbs
-{{! @INSERT :: START @id: article, @tag: component-partial }}
-	{{#with article-bp.simple}}
-		{{> c-article}}
-	{{/with}}
+### General
+- settings.articleContextClass {String} [default] - Just pass a string
+- settings.articleClasses {String} - Modifier classes
 
-	{{#with article-bp.articleWithImage}}
-		{{> c-article}}
-	{{/with}}
+### Header
+- articleHeader {Object} - Object which contains multiple elements
+- settings.articleHeader.articleHeaderClasses {String} - Class for header
+- content.articleHeader.articleDate {String} - Date string
+- content.articleHeader.articleDatetime {String} - Date attribute
+- content.articleHeader.articleH1 {String} - Header H1
+- content.articleHeader.articleH2 {String} - Header H2
+- content.articleHeader.articleH3 {String} - Header H3
+- content.articleHeader.articleIntro {String} - Header Intro
 
-	{{#with article-bp.multipleContent}}
-		{{> c-article}}
-	{{/with}}
-	
-{{! @INSERT :: END }}
-```
+### Content
+- settings.articleContentClasses {String} - Classes content div
 
-### Include: SCSS
-
-``` scss
-// @INSERT :: START @tag: scss-import 
-@import "components/_c-article";
-// @INSERT :: END
-```
+### Footer
+- articleFooter {Object} - Object which contains multiple elements
+- settings.articleFooter.articleFooterClasses {String} - Class for footer element
+- content.articleFooter.articleFooterLink {String} - Footer link

@@ -26,12 +26,6 @@ Global Styles
 	}
 
 	/*
-	Figure
-	----------------------- */
-	.article__figure {
-	}
-
-	/*
 	Content
 	----------------------- */
 	.article__content {
@@ -51,4 +45,35 @@ Global Styles
 Context: Default Example
 --------------------------------------------------- */
 .c-article--default {
+	/*
+	Header
+	----------------------- */
+	.article__header {
+		margin-bottom: 3rem;
+	}
+
+	.article__header-time {
+		font-size: 1.2rem;
+	}
+
+	.article__header-headline {
+		font-size: 2.8rem;
+		margin-bottom: 1.15rem;
+	}
+
+	.article__header-subline {
+		font-size: 2.2rem;
+		margin-bottom: .75rem;
+	}
+
+	.article__header-intro {
+		font-size: 2rem;
+		font-weight: 900;
+	}
+
+
+	.article__footer {
+		margin-top: 3rem;
+	}
+
 }
