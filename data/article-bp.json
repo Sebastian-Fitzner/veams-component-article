@@ -2,6 +2,7 @@
 	"variations": {
 		"default": {
 			"docs": {
+				"variationName": "Article with all fields",
 				"sectionCenter": true
 			},
 			"settings": {
@@ -19,7 +20,8 @@
 					"articleIntro": "This is an intro text which can be used in every article component."
 				},
 				"articleFooter": {
-					"articleFooterLink": "Footer Link in Article"
+					"articleFooterLink": "#",
+					"articleFooterLinkText": "Footer Link in Article"
 				}
 			}
 		}
