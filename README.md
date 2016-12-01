@@ -1,3 +1,8 @@
+<p align="center">
+    <a href="https://badge.fury.io/bo/veams-component-article"><img src="https://badge.fury.io/bo/veams-component-article.svg" alt="Bower version" height="20"></a>
+    <a href="https://gitter.im/Sebastian-Fitzner/Veams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Sebastian-Fitzner/Veams.svg" alt="Gitter Chat" /></a>
+</p>
+
 # Article
 
 ## Description
