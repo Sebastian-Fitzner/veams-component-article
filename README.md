@@ -1,4 +1,4 @@
-<p align="center">
+<p align="right">
     <a href="https://badge.fury.io/bo/veams-component-article"><img src="https://badge.fury.io/bo/veams-component-article.svg" alt="Bower version" height="20"></a>
     <a href="https://gitter.im/Sebastian-Fitzner/Veams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Sebastian-Fitzner/Veams.svg" alt="Gitter Chat" /></a>
 </p>
@@ -6,8 +6,6 @@
 # Article
 
 ## Description
-
-This blueprint is based on the blueprint of Veams-Components.
 
 The article component is a `wrap-with` partial to give you the possibility to put in every content you need. 
 
