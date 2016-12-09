@@ -9,28 +9,37 @@
 
 The article component is a `wrap-with` partial to give you the possibility to put in every content you need. 
 
-----
+----------- 
+
+## Installation 
+
+### Installation with Veams
+
+`veams install vc article`
+
+### Installation with Bower
+
+`bower install veams-component-article --save`
+
+----------- 
 
 ## Fields
 
-### General
-- settings.articleContextClass {`String`} [default] - Just pass a string
-- settings.articleClasses {`String`} - Modifier classes
+### Settings
+- settings.articleContextClass {`String`} [default] - _Context class of component._
+- settings.articleClasses {`String`} - _Modifier classes for component._
+- settings.articleHeader.articleHeaderClasses {`String`} - _Classes for header element._
+- settings.articleContentClasses {`String`} - _Classes for content div._
+- settings.articleFooter.articleFooterClasses {`String`} - _Classes for footer element._
 
-### Header
-- articleHeader {`Object`} - Object which contains multiple elements
-- settings.articleHeader.articleHeaderClasses {`String`} - Class for header
-- content.articleHeader.articleDate {`String`} - Date string
-- content.articleHeader.articleDatetime {`String`} - Date attribute
-- content.articleHeader.articleH1 {`String`} - Header H1
-- content.articleHeader.articleH2 {`String`} - Header H2
-- content.articleHeader.articleH3 {`String`} - Header H3
-- content.articleHeader.articleIntro {`String`} - Header Intro
 
-### Content
-- settings.articleContentClasses {`String`} - Classes content div
-
-### Footer
-- articleFooter {`Object`} - Object which contains multiple elements
-- settings.articleFooter.articleFooterClasses {`String`} - Class for footer element
-- content.articleFooter.articleFooterLink {`String`} - Footer link
+### Content 
+- content.articleHeader {`Object`} - _Object which contains multiple elements_
+- content.articleHeader.articleDate {`String`} - _Date string_
+- content.articleHeader.articleDatetime {`String`} - _Date attribute_
+- content.articleHeader.articleH1 {`String`} - _Header H1_
+- content.articleHeader.articleH2 {`String`} - _Header H2_
+- content.articleHeader.articleH3 {`String`} - _Header H3_
+- content.articleHeader.articleIntro {`String`} - _Header Intro_
+- content.articleFooter {`Object`} - _Object which contains multiple elements_
+- content.articleFooter.articleFooterLink {`String`} - _Footer link_
