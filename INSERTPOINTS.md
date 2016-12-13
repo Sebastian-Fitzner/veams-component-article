@@ -20,7 +20,7 @@
 @import "components/_c-article";
 // @INSERT :: END
 
-// @INSERT :: START @tag: scss-import-self-contained //
+// @INSERT :: START @tag: scss-self-contained-import //
 @import "../templating/partials/components/article/scss/c-article";
 // @INSERT :: END
 ```
