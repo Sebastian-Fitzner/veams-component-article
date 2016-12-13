@@ -1,6 +1,6 @@
 {
 	"name": "veams-component-article",
-	"version": "2.0.2",
+	"version": "2.0.4",
 	"ignore": [
 		".bowerrc",
 		".gitignore",
