@@ -18,9 +18,9 @@
 ``` scss
 // @INSERT :: START @tag: scss-project-import // 
 @import "components/_c-article";
-// @INSERT :: END
+// @INSERT :: END //
 
 // @INSERT :: START @tag: scss-self-contained-import //
 @import "../templating/partials/components/article/scss/c-article";
-// @INSERT :: END
+// @INSERT :: END //
 ```
