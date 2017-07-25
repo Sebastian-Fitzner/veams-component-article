@@ -1,3 +1,7 @@
+### v3.0.0
+- Make it compatible with Veams 5 framework
+- Fix in INSERTPOINTS
+
 ### v2.0.0
 - Refactor data structure
 - Add all important notes to readme

@@ -16,7 +16,7 @@
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @tag: scss-project-import // 
+// @INSERT :: START @tag: scss-import //
 @import "components/_c-article";
 // @INSERT :: END //
 
