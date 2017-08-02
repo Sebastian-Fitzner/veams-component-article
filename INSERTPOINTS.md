@@ -16,11 +16,7 @@
 ### Include: SCSS
 
 ``` scss
-// @INSERT :: START @tag: scss-import //
-@import "components/_c-article";
-// @INSERT :: END //
-
 // @INSERT :: START @tag: scss-self-contained-import //
-@import "../templating/partials/components/article/scss/c-article";
+@import "../components/article/scss/c-article";
 // @INSERT :: END //
 ```
