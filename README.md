@@ -17,10 +17,6 @@ The article component is a `wrap-with` partial to give you the possibility to pu
 
 `veams install vc article`
 
-### Installation with Bower
-
-`bower install veams-component-article --save`
-
 ----------- 
 
 ## Fields
