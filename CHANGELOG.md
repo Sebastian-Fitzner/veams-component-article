@@ -1,3 +1,6 @@
+### v5.1.1
+- Fix scss file reference in settings 
+
 ### v5.1.0
 - Add settings json for component
 
