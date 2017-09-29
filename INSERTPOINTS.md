@@ -12,11 +12,3 @@
 	
 {{! @INSERT :: END }}
 ```
-
-### Include: SCSS
-
-``` scss
-// @INSERT :: START @tag: scss-self-contained-import //
-@import "../components/article/scss/c-article";
-// @INSERT :: END //
-```
