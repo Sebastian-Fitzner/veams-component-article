@@ -4,7 +4,7 @@
 
 	{{#if options.content.articleHeader}}
 		<header class="article__header{{#if options.settings.articleHeaderClasses}} {{options.settings.articleHeaderClasses}}{{/if}}">
-			{{> c-article__header options.content.articleHeader}}
+			{{> article__header options.content.articleHeader}}
 		</header>
 	{{/if}}
 
@@ -14,7 +14,7 @@
 
 	{{#if options.content.articleFooter}}
 		<footer class="article__footer {{options.settings.articleFooterClasses}}">
-			{{> c-article__footer options.content.articleFooter}}
+			{{> article__footer options.content.articleFooter}}
 		</footer>
 	{{/if}}
 </article>

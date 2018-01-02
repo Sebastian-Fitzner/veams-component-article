@@ -1,3 +1,6 @@
+### v5.2.1
+- Update readme
+
 ### v5.2.0
 - Make component compatible with veams-cli@2.0.xx
 
