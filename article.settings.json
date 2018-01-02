@@ -1,14 +1,13 @@
 {
 	"type": "component",
-	"displayName": "c-article",
 	"contextData": "article-bp",
 	"layout": "lyt-docs",
 	"subTemplates": [
-		"c-article.hbs",
-		"c-article__footer.hbs",
-		"c-article__header.hbs"
+		"templates/article.hbs",
+		"templates/article__footer.hbs",
+		"templates/article__header.hbs"
 	],
 	"scssFiles": [
-		"_c-article.scss"
+		"styles/_article.scss"
 	]
 }
