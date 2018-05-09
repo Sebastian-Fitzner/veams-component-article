@@ -1,10 +1,10 @@
 {
-	"name": "veams-component-article",
-	"version": "5.2.1",
+	"name": "@veams/component-article",
+	"version": "1.0.0",
 	"description": "The article component is a `wrap-with` partial to give you the possibility to put in every content you need.",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/Veams/veams-component-article.git"
+		"url": "git://github.com/Veams/component-article.git"
 	},
 	"keywords": [
 		"veams"
@@ -12,7 +12,7 @@
 	"author": "Sebastian Fitzner",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Veams/veams-component-article/issues"
+		"url": "https://github.com/Veams/component-article/issues"
 	},
-	"homepage": "https://github.com/Veams/veams-component-article#readme"
+	"homepage": "https://github.com/Veams/component-article#readme"
 }

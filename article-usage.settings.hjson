@@ -1,0 +1,14 @@
+{
+	"type": "component",
+	"contextData": "article",
+	"displayName": "article",
+	"layout": "lyt-docs",
+	"subTemplates": [
+		"article.hbs",
+		"article__footer.hbs",
+		"article__header.hbs"
+	],
+	"scssFiles": [
+		"_article.scss"
+	]
+}
