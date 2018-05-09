@@ -1,5 +1,5 @@
 <p align="right">
-    <a href="https://badge.fury.io/bo/veams-component-article"><img src="https://badge.fury.io/bo/veams-component-article.svg" alt="Bower version" height="20"></a>
+<a href="https://badge.fury.io/js/veams-component-article"><img src="https://badge.fury.io/js/veams-component-article.svg" alt="npm version" height="18"></a>
     <a href="https://gitter.im/Sebastian-Fitzner/Veams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Sebastian-Fitzner/Veams.svg" alt="Gitter Chat" /></a>
 </p>
 
@@ -16,10 +16,6 @@ The article component is a `wrap-with` partial to give you the possibility to pu
 ### Installation with Veams
 
 `veams install vc article`
-
-### Installation with Bower
-
-`bower install veams-component-article --save`
 
 ----------- 
 
