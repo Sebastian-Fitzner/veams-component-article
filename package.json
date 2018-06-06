@@ -1,6 +1,6 @@
 {
 	"name": "@veams/component-article",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "The article component is a `wrap-with` partial to give you the possibility to put in every content you need.",
 	"repository": {
 		"type": "git",
